@@ -46,15 +46,12 @@ Personal Budget System — это простой и удобный сервис 
 
 ```
 https://gitlab.itnap.ru/a.enin/personalbudgetsystem.git
-
 ```
 
 2. Запуск
 
 ```
-
 docker-compose up -d
-
 ```
 
 После чего проект можно открыть на http://localhost
@@ -65,23 +62,18 @@ docker-compose up -d
 
 ```
 https://gitlab.itnap.ru/a.enin/personalbudgetsystem.git
-
 ```
 
 2. Установки завимостей
 
 ```
-
 npm install
-
 ```
 
 3. Запуск в режиме разработки
 
 ``` 
-
 npm run dev
-
 ```
 
 После чего проект можно открыть на http://localhost:5173
@@ -89,15 +81,11 @@ npm run dev
 ## Запуск тестов
 
 ``` 
-
 npm run test
-
 ```
 
 Или
 
 ``` 
-
 npx vitest
-
 ```
