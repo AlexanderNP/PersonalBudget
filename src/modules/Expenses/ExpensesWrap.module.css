@@ -1,0 +1,15 @@
+.wrap {
+  padding: 1.5vw;
+  box-shadow: var(--shadow);
+  border-radius: 1vw;
+  background-color: #ffffff;
+}
+
+.wrap h1 {
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.wrap p {
+  font-size: 1vw;
+}

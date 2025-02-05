@@ -1,0 +1,11 @@
+.form input {
+  width: 100%;
+}
+
+.title {
+  color: var(--incomeColor);
+}
+
+.form label {
+  font-size: 1.5vw;
+}

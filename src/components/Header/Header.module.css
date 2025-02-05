@@ -1,0 +1,31 @@
+.header {
+  background-color: rgb(66, 184, 148);
+  font-size: 1.5vw;
+  color: #ffffff;
+  padding: 0 10vw;
+}
+
+.header h1 {
+  font-size: 1.7vw;
+  margin-bottom: 0;
+}
+
+.avatar {
+  cursor: pointer;
+  background-color: #87d068;
+  width: 2vw;
+  height: 2vw;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.logout svg {
+  fill: #e0e6e0;
+  transition: fill 0.2s ease;
+}
+
+.logout svg:hover {
+  fill: #080808;
+}

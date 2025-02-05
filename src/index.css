@@ -1,0 +1,12 @@
+@import "antd/dist/reset.css";
+
+:root {
+  --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  --expensesColor: #fd5151;
+  --incomeColor: #1677ff;
+}
+
+body, p {
+  margin: 0;
+  padding: 0;
+}

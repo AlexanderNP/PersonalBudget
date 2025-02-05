@@ -1,0 +1,47 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30vw;
+  box-shadow: var(--shadow);
+  padding: 3vw;
+  border-radius: 0.6vw;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.formItem:last-child {
+  margin-bottom: 0;
+}
+
+.formLink{
+  cursor: pointer;
+  display: flex;
+  gap: 0.5vw;
+  font-size: 0.9vw;
+  align-items: center;
+  font-weight: 600;
+}
+
+.loader {
+  width: 24px;
+  height: 24px;
+  border: 5px solid #FFF;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  }
+
+@keyframes rotation {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+} 

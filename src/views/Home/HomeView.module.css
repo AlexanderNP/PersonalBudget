@@ -1,0 +1,11 @@
+.homeContainer {
+  min-height: 100vh;
+  background-color: #D3D3D3;
+  padding: 2vw;
+}
+
+.currency {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}

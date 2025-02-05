@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 12vw;
+  height: 8vh;
+  background-color: #fafafa;
+  border-radius: 0.6vw;
+  font-size: 1vw;
+  gap: 0.5vw;
+  box-shadow: var(--shadow);
+}
+
+.expenses {
+  font-weight: 500;
+  color: var(--expensesColor);
+}
+
+.income {
+  font-weight: 500;
+  color: var(--incomeColor);
+}
